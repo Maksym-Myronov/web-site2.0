@@ -1,0 +1,773 @@
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+/* Common */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+p + p {
+    margin-top: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+img,
+svg {
+    vertical-align: none;
+    max-width: 100%;
+    height: auto;
+}
+
+html, body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    line-height: 1;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+.header__menu {
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image__logo {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.logo__menu {
+    background-image: url("./img/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.nav__menu {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+}
+
+.header__menu__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+    margin-bottom: 100px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 20px
+}
+
+.register__box {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu {
+    padding: 25px 20px 25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__item {
+    cursor: pointer;
+}
+
+.menu__bar {
+    padding: 25px 0px;
+}
+
+.text__regist {
+    width: 150px;
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.hello__box {
+    display: flex;
+    margin-left: 75px;
+    color: #979797;
+}
+
+.information__type {
+    display: flex;
+    justify-content: center;
+}
+
+.text__informathion {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn__informathion {
+    margin-left: 250px;
+    margin-top: 75px;
+    width: 280px;
+    height: 50px;
+    color: white;
+    background-color: #7B61FF;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.booking__informathion {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    height: 100px;
+    width: 900px;
+    padding: 18px 50px;
+    margin-top: 65px;
+    margin-left: 320px;
+}
+
+.info__name {
+    color: #979797;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.info__text {
+    color: #161414;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search__btn {
+    cursor: pointer;
+}
+
+
+.popular__destinations {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px 0px 50px;
+}
+
+.first__info {
+    margin-left: 50px;
+    padding: 100px 0px 0px 0px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.text__city {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.text__country {
+    color: #979797;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info__hotel  {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px 0px 50px;
+}
+
+.info__about__place {
+    padding: 100px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.take__mark {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.main__container {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text__about__places {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.view__box {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: #F6F4FF;
+    color: #7B61FF;
+    cursor: pointer;
+}
+
+.view__text {
+    margin-left: 10px;
+}
+
+.text__city__main {
+    font-size: 16px;
+    font-weight: 700;
+    color: #161414;
+    padding: 20px 10px;
+}
+
+.location__tour {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.star__tour {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.travel__tips{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+}
+
+.travel__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info__travel {
+    padding: 0px 25px 0px 45px;
+}
+
+.text__city__travel {
+    font-size: 24px;
+    font-weight: 700;
+    color: #161414;
+    line-height: 36px;
+    margin-bottom: 70px;
+}
+
+.experience__travel {
+    color: #979797; 
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 70px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center; /* Выравнивание элементов по вертикали */
+    gap: 25px;
+}
+
+.flex-container > div {
+    display: flex;
+    align-items: center; /* Выравнивание элементов по вертикали */
+}
+
+.travel__scope {
+    color: #979797; 
+    font-size: 12px;
+}
+
+.experience__travel__two {
+    color: #979797; 
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 140px;
+}
+
+.text__city__travel__two {
+    font-size: 24px;
+    font-weight: 700;
+    color: #161414;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.images__travel__people {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 50px;
+}
+
+.name__sports {
+    font-size: 16px;
+    font-weight: 600;
+    color: #161414;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.last__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.about__company {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #161414;
+}
+
+.about__text {
+    font-weight: 400;
+    color: #5B5B5B;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.about__btn {
+    color: #7B61FF;
+    margin-left: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn__company {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    border-radius: 12px;
+    background-color: #F6F4FF;
+    color: #7B61FF;
+    padding: 0px 10px;
+    height: 20px;
+}
+
+.footer__container {
+    background-color: #F9F9F9;
+}
+
+.footer__page {
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 50px 25px 50px;
+}
+
+.footer__text {
+    margin-top: 25px;
+    color: #979797;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 35px;
+}
+
+.footer__menu {
+    margin-top: 10px;
+    color: #161414;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    color: #979797;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.footer__destination {
+    color: #161414;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img__footer {
+    width: 62px;
+    height: 72px;
+}
+
+.foooter__block {
+    background-color: white;
+    border-radius: 12px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.your__email {
+    padding: 5px 0px;
+    color: #979797;
+    font-size: 14px;
+}
+
+.email__adress {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info__bron {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer_icon {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+}
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+    overflow: hidden;
+}
+
+
+.burger span{
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #FAF6F2;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #FAF6F2;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before { top: 0 }
+
+.burger::after { bottom: 0 }
+
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { transform: scale(0) }
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+.open{
+    display: flex !important;
+}
+
+
+@media (max-width: 1440px) {
+    .header__container {
+        width: 1500px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__container {
+        width: 1550px;
+    }
+    .footer__page {
+        width: 1440px;
+    }
+    .footer__container {
+        width: 1550px;
+    }
+    .nav__menu {
+        font-size: 1.3rem;
+    }
+    .text__regist {
+        font-size: 1.3rem;
+        width: 200px;
+        padding: 5px 10px 10px 60px;
+    }
+    .btn__informathion {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .take__mark {
+        font-size: 1.1rem;
+    } 
+    .text__city__main {
+        font-size: 1.1rem;
+    }
+    .info__about__place {
+        padding: 100px 5px 0px 50px;
+    }
+    .travel__scope {
+        font-size: 1rem;
+    }
+    .experience__travel, .experience__travel__two {
+        font-size: 1.1rem;
+        line-height: 21px;
+    }
+    .view__box  {
+        font-size: 1.2rem;
+        width: 120px;
+    }
+    .btn__company  {
+        font-size: 1.2rem;
+        width: 160px;
+    }
+    .name__sports  {
+        font-size: 1.2rem;
+    }
+    .about__text {
+        font-size: 1.1rem;
+    }
+    .last__block {
+        padding: 50px 150px;
+    }
+    .footer__text .footer__link, .your__email {
+        font-size: 1.1rem;
+    }
+    .footer__menu, .footer__destination, .email__adress {
+        font-size: 1.2rem;
+    }
+    .burger { 
+        display: flex; 
+    }
+    .nav__menu {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-y: hidden;
+        padding: 50px 40px;
+        background-color: black;
+        animation: burgerAnimation 0.4s;
+    }
+    .nav__menu ul{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .text__regist{
+        padding: 5px 10px 10px 10px;
+        margin-left: -10px;
+    }
+    .register__box {
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 1200px;
+    }
+    .images__register {
+        margin-left: -180px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 426px) {
+    .popular__destinations {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 150px;
+    }
+    .block__city {
+        margin-bottom: 60px;
+        max-width: none;
+    }
+    .text__city {
+        font-size: 2rem;
+    }
+    .text__country {
+        font-size: 1.5rem;
+    }
+    .images__city img {
+        width: 80%;
+        height: auto;
+    }
+    .city__country {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .info__about__place {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 150px;
+    }
+    .text__location__star {
+        margin-right: 250px;
+    }
+    .star__tour img{
+        width: 60%;
+        height: 150%;
+        margin-right: 200px;
+    }
+    .first__images img {
+        width: 80%;
+    }
+    .take__mark {
+        margin-bottom: 60px;
+    }
+    .text__city__main {
+        font-size: 2rem;
+    }
+    .location__tour {
+        font-size: 1.7rem;
+    }
+    .nav__menu ul{
+        font-size: 2rem;
+    }
+    .text__regist {
+        font-size: 1.8rem;
+        width: 300px;
+        padding: 5px 100px 10px 10px;
+    }
+    .images__register {
+        margin-left: -260px;
+    }
+    .hello__box {
+        margin-left: 90px;
+        margin-top: 5px;
+        padding: 10px 0px 0px 0px;
+    }
+    .images__travel__people {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 150px;
+    }
+    .images__phto {
+        width: 80%;
+    }
+    .name__sports {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+    .travel__tips {
+        flex-direction: column; /* Элементы будут один под другим */
+        padding: 25px 500px; /* Уменьшим отступы для компактности */
+    }
+    
+    .travel__container {
+        flex-direction: column; /* Элементы внутри контейнера тоже будут один под другим */
+    }
+    
+    .info__travel {
+        padding: 0px 25px; /* Уменьшим отступы для компактности */
+    }
+    .two {
+        margin-top: 40px;
+        width: 80%;
+    }
+    .text__city__travel__two, .text__city__travel {
+        font-size: 2rem;  
+    } 
+    .experience__travel, .experience__travel__two{
+        font-size: 1.4rem;
+    }
+    .text__ph {
+        margin-right: 100px;
+    }
+    .info__hotel {
+        padding: 100px 100px 0px 100px;
+        
+    }
+    .view__box { 
+        width: 80vh;
+        height: 20vh;
+        font-size: 1.8rem;
+    }
+    .about__company {
+        font-size: 2.5rem;
+    }
+    .about__text {
+        font-size: 1.6rem;
+        line-height: 50px;
+    }
+    .last__block {
+        padding: 50px 80px;
+    }
+    .btn__company {
+        width: 100vh;
+        height: 20vh;
+        font-size: 1.8rem;
+    }
+    .flex-container {
+        margin-top: -100px;
+    }
+    .info__name {
+        font-size: 1.8rem;
+    }
+    .info__text {
+        font-size: 1.1rem;
+    }
+    .btn__informathion {
+        font-size: 1.5rem;
+    }
+    .footer__menu {
+        font-size: 1.8rem;
+    }
+    .footer__link {
+        font-size: 1.5rem;
+    }
+    .footer__text {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+}
+
